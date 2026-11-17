@@ -1,10 +1,13 @@
 # yaml-language-server: $schema=https://cellmigrationlab.github.io/LabConstrictor-Site/schema/labconstrictor-app.schema.json
 schema: 1
-name: AlphaFold2
-summary: Easy to use protein structure and complex prediction using AlphaFold2 and Alphafold2-multimer.
-kind: simulation
+name: "AlphaFold2"
+summary: "Easy to use protein structure and complex prediction using AlphaFold2 and Alphafold2-multimer."
+kind: "simulation"
 hosts:
-- notebook
+  - "notebook"
 distribution:
   installer: true
-icon: app/logo/ColabFold_Marv_Logo.png
+  colab:
+    - label: "AlphaFold2"
+      url: "https://colab.research.google.com/github/CellMigrationLab/AlphaFold2/blob/main/notebooks/AlphaFold2/AlphaFold2.ipynb"
+license: "MIT"
