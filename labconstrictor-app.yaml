@@ -11,4 +11,5 @@ distribution:
     - label: "AlphaFold2"
       url: "https://colab.research.google.com/github/CellMigrationLab/AlphaFold2/blob/main/notebooks/AlphaFold2/AlphaFold2.ipynb"
 license: "MIT"
+doi: "10.1038/s41592-022-01488-1"   # ColabFold, the notebook this app packages
 icon: app/logo/ColabFold_Marv_Logo.png
